@@ -3,19 +3,26 @@ HOST: http://uni.olemeyer.com:8082
 
 # Optimized Feature Selection
 
-The project was created as part of the lecture "Selbstorganisierende und adaptive Systeme"
-at the University of Duisburg-Essen. It's provides a service for findung an
-optimized configuration for a feature tree using the 
-[regulatory algorithm](http://link.springer.com/article/10.1007/s00500-015-1624-6).
+Das Projekt wurde im Rahmen der Veranstaltung "Selbstorganisierende und adaptive Systeme"
+an der Universität Duisburg-Essen entwickelt. Es stellt einen Webservice für das finden
+von optimalen Konfigurationen von Feature Modellen, basierend auf dem 
+[Regulator Algorithmus](http://link.springer.com/article/10.1007/s00500-015-1624-6) bereit.
 
-You need to send your feature tree including some information about the impact
-between features and softgoals. Furthermore, you can configure the algorithm
-(e.g. the probability for a mutation or the quota of reproduction).
+Auf dieser Seite kann der Service im folgenden einfach Online und ohne Installation
+getestet werden. Die Schnittstelle kann einfach und unumständlich über REST angesprochen
+werden.
 
 
-## Using the API [/optimize]
+## Nutzung der API [/optimize]
 
-### Optimize Request [POST]
+Klicken Sie auf den unten stehenden Link. In dem rechts aufklappenden
+Fenster haben Sie die Möglichkeit mit der Hilfe der Buttons "Try"
+und "Call Resource" eine Beispielanfrage zu senden und sich diese, sowie das
+Ergebniss anzusehen.
+
+### Optimierungs Anfrage [POST]
+
+
 
 + Request (application/json)
 
