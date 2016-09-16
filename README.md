@@ -1,10 +1,8 @@
 # Optimized Feature Selection
 
-This project was created as part of the lecture "Selbstorganisierende und adaptive Systeme"
-at the University of Duisburg-Essen. It's provides a service for findung an
-optimized configuration for a feature tree using the 
-[regulatory algorithm](http://link.springer.com/article/10.1007/s00500-015-1624-6).
+Das Projekt wurde im Rahmen der Veranstaltung "Selbstorganisierende und adaptive Systeme"
+an der Universität Duisburg-Essen entwickelt. Es stellt einen Webservice für das finden
+von optimalen Konfigurationen von Feature Modellen, basierend auf dem 
+[Regulator Algorithmus](http://link.springer.com/article/10.1007/s00500-015-1624-6) bereit.
 
-You need to send your feature tree including some information about the impact
-between features and softgoals. Furthermore, you can configure the algorithm
-(e.g. the probability for a mutation or the quota of reproduction).
+Auf der folgenden Seite kann der Service ohne Installation online getestet werden: [Demo](http://link.springer.com/article/10.1007/s00500-015-1624-6)
