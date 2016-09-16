@@ -7,4 +7,4 @@ von optimalen Konfigurationen von Feature Modellen, basierend auf dem
 
 Auf der folgenden Seite kann der Service ohne Installation online getestet werden: [Demo](http://docs.optimizedfeatureselection.apiary.io/)
 
-Um den Service lokal zu starten benötigen Sie die JAR-Datei aus dem Ordner "bin". Diese können Sie mit dem Befehl "java -jar optfeatureselection-0.0.1-SNAPSHOT.jar" ausführen. Der Service ist danach unter "localhost:8081/optimize" über POST erreichbar. Eine Beispielanfrage befindet sich ebenfalls in dieser [Demo](http://docs.optimizedfeatureselection.apiary.io/).
+Um den Service lokal zu starten benötigen Sie die JAR-Datei aus dem Ordner "bin". Diese können Sie mit dem Befehl "java -jar optfeatureselection-0.0.1-SNAPSHOT.jar" ausführen. Der Service ist danach unter "localhost:8081/optimize" über POST erreichbar. Vorraussetzung ist Java 1.8 oder höher. Eine Beispielanfrage befindet sich ebenfalls in dieser [Demo](http://docs.optimizedfeatureselection.apiary.io/).
